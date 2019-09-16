@@ -52,6 +52,7 @@
             "userId": 1,
             "userEmail": "usthmandanfodio@gmail.com",
             "accountNumber":"0058780531",
+            "bankName": "Sterling Bank",
             "cardNumber": "",
             "expiryDate": "",
             "CVC": ""
@@ -64,6 +65,7 @@
             "userId": 2,
             "userEmail": "balikis@gmail.com",
             "accountNumber":"",
+            "bankName": "",
             "cardNumber": "5762 6453 2174 2999",
             "expiryDate": "06/20",
             "CVC": 323
