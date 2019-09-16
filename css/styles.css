@@ -207,6 +207,198 @@ body {
     margin-bottom: 1rem;
 }
 
+.form-heading {
+    display: block;
+    font-size: 2rem;
+    margin-left: 10%;
+}
+
+.form-headings {
+    display: block;
+    font-size: 2rem;
+    margin-left: -15%;
+    
+}
+
+.right-panel {
+    margin-top:4rem;
+    text-align: left;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: fixed;
+    right: 0;
+    width: 50%;
+    min-height: 60%;
+    height: 91.2%;
+    overflow: hidden;
+    background: url('../img/fancy_bg.png')
+}
+
+.panel {
+    margin-top:4rem;
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: fixed;
+    right: 25%;
+    width: 50%;
+    min-height: 60%;
+    height: 91.2%;
+    overflow: hidden;
+    background: url('../img/fancy_bg.png');
+    background-repeat: repeat;
+}
+
+form {
+    display: block;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+input {
+    -webkit-rtl-ordering: logical;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+.form-input {
+    border: 1px solid #D4D9E2;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 14px;
+    color: #596377;
+    outline: 0;
+    height: 30px;
+    display: block;
+    width: 70%;
+    transition: border-color .2s ease;
+}
+
+.form-inputs {
+    border: 1px solid #D4D9E2;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 14px;
+    color: #596377;
+    outline: 0;
+    height: 40px;
+    display: block;
+    width: 68.5%;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    transition: border-color .2s ease;
+}
+
+.pad {
+    height: 40px;
+    width: 70%;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 4%;
+    margin-top:18px;
+    display: block;
+}
+
+.form-group p {
+    margin-top: 0;
+}
+
+.naming {
+    display: flex;
+    justify-content: flex-start flex-end center space-between space-around space-evenly;
+    align-items: stretch flex-start flex-end center baseline;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 7px;
+    margin-top: px;
+}
+
+.names {
+    display: flex;
+    justify-content: left;
+    width: 45%;
+}
+
+.names1 {
+    display: flex;
+    justify-content: right;
+    width: 45%;
+    margin: 2%;
+    margin-left: -8%;
+    margin-top: 0;
+}
+
+.form-help {
+    position: absolute;
+    right:27%;
+    top: 20em;
+    text-align: right;
+    font-size: 12px;
+    color: #a92e65;
+    transition: color .2s ease;
+    text-decoration: none;
+}
+
+.form-help:hover {
+    color: rgb(92, 1, 42)
+}
+
+#form-button {
+    border-radius: 5px;
+    border: 1px solid transparent;
+    text-align:center;
+    margin: auto;
+    line-height:1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+    background: #A92E65;
+    border-color: #A92E65;
+    outline: none;
+    padding: 1% 4% 1% 4%;
+    margin-left: 27%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#form-button:hover {
+    background: rgb(92, 1, 42)
+}
+
+.link{
+    font-size:18px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(31, 30, 30);
+    margin-top: 12px;
+    text-align: center;
+    margin-left: -90px;
+}
+.link span a {
+    color: #A92E65;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link span a:hover {
+    color: rgb(92, 1, 42);
+}
+
 footer {
 	bottom: 0;
     font-size: 1rem;
@@ -383,5 +575,23 @@ footer {
 
     .right-panel {
         width: 100%;
+    }
+
+    .form-heading {
+        margin-top: -4px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .form-help {
+        top: 18em;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .form-help {
+        top: 16em;
+        right:26%;
     }
 }
