@@ -1,0 +1,103 @@
+{
+    "Users": [
+        {
+            "id": 1,
+            "firstName": "Usman",
+            "lastName": "Adio",
+            "email": "usthmandanfodio@gmail.com",
+            "password": "modupeola",
+            "address": "28, Alhaja Adijat Yusuf street",
+            "phoneNumber": "07081855427",
+            "gender": "Male",
+            "yearOfBirth": 2000,
+            "employmentStatus": "employed",
+            "incomeRange": "51,000-250,000",
+            "accountNumber": "0058780531",
+            "bank": "Sterling Bank"
+        },
+
+        {
+            "id": 2,
+            "firstName": "Balikis",
+            "lastName": "Kareem",
+            "email": "balikis@gmail.com",
+            "password": "fire",
+            "address": "18, Alhaja Adijat Yusuf street",
+            "phoneNumber": "08025818583",
+            "gender": "Female",
+            "yearOfBirth": 1990,
+            "employmentStatus": "employed",
+            "incomeRange": "21,000-100,000",
+            "accountNumber": "0783048686",
+            "bank": "Access Bank"
+        },
+
+        {
+            "id": 3,
+            "firstName": "Grace",
+            "lastName": "Kalu",
+            "email": "gracekalu@gmail.com",
+            "password": "kalugrace",
+            "address": "PortHarcourt",
+            "phoneNumber": "07091924587",
+            "gender": "Female",
+            "yearOfBirth": 2004,
+            "employmentStatus": "employed",
+            "incomeRange": "11,000-50,000",
+            "accountNumber": "0965457104",
+            "bank": "GT Bank"
+        },
+        {
+            "id": 4,
+            "firstName": "Cleverley",
+            "lastName": "Tom",
+            "email": "tomcleverley@gmail.com",
+            "password": "watford",
+            "address": "Watford",
+            "phoneNumber": "+912456789",
+            "gender": "Male",
+            "yearOfBirth": 1990,
+            "employmentStatus": "employed",
+            "incomeRange": "$100,000-250,000",
+            "accountNumber": "0689453120",
+            "bank": "SunTrust Bank"
+        },
+        {
+            "id": 5,
+            "firstName": "Deulofeu",
+            "lastName": "Gerard",
+            "email": "gerarddeulofeu@gmail.com",
+            "password": "deulofeugerad",
+            "address": "Watford",
+            "phoneNumber": "+912456789",
+            "gender": "Male",
+            "yearOfBirth": 2002,
+            "employmentStatus": "employed",
+            "incomeRange": "$51,000-250,000",
+            "accountNumber": "0897654231",
+            "bank": "Chase Bank"
+        }
+    ],
+
+    "Transactions": [
+        {
+            "id": 1,
+            "type": "Withdrawal",
+            "amount": "#5,000",
+            "userId": 1,
+            "userEmail": "usthmandanfodio@gmail.com",
+            "accountNumber":"0058780531",
+            "cardNumber": "5762 6453 2174 2999"
+        },
+
+        {
+            "id": 2,
+            "type": "Deposit",
+            "amount": "#10,000",
+            "userId": 2,
+            "userEmail": "balikis@gmail.com",
+            "accountNumber":"0783048686",
+            "cardNumber": "5762 6453 2174 2999"
+        }
+    ]
+}

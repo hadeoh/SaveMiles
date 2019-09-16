@@ -4,7 +4,8 @@
   "description": "This is a product which helps people with their money right from where they are instead of walking miles to deposit or withdraw their money",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/hadeoh/SaveMiles/issues"
   },
-  "homepage": "https://github.com/hadeoh/SaveMiles#readme"
+  "homepage": "https://github.com/hadeoh/SaveMiles#readme",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
 }
