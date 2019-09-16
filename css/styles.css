@@ -617,3 +617,119 @@ footer {
         right:26%;
     }
 }
+
+/******************************************************* 
+            TRANSACTION PAGE STYLES 
+***********************************************************/
+
+#transaction-main {
+    height: 90.5vh;
+    background-color: #dfe0e2;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v20H0V0zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm20 0a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM10 37a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm10-17h20v20H20V20zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14z' fill='%23000000' fill-opacity='0.02' fill-rule='evenodd'/%3E%3C/svg%3E");
+  }
+  
+  #transaction-section {
+    padding-top: 0.5em;
+    margin-left: 1em;
+  }
+  #transaction-section > h3 {
+    text-align: right;
+    padding-right: 0.5em;
+    color: #A92E65;
+  }
+  
+  #transaction-section > h1 {
+    text-align: center;
+    font-size: 2.3em;
+    margin-bottom: 1em;
+    color: #A92E65;
+  }
+  #transaction-table {
+    overflow: auto;
+    height: 60vh;
+    margin-left: 16.5em;
+    margin-right: 16.5em;
+  }
+  
+  .transaction-table {
+    background: #ffffffc2;
+    margin-bottom: 1em;
+    table-layout: fixed;
+    color: #909090;
+  }
+  
+  table,
+  th,
+  td {
+    text-align: center;
+  }
+  
+  .transaction-table th {
+    padding: 1em;
+    background: #A92E65;
+    color: #eee;
+    table-layout: fixed;
+    width: 200px;
+  }
+  .transaction-table td {
+    width: 214px;
+    padding: 0.5em;
+    border-bottom: 2px solid #dfe0e2;
+    color: #A92E65;
+  }
+  .transaction-table tr {
+    display: block;
+    width: 100%;
+  }
+  .transaction-table tbody {
+    display: block;
+    overflow: auto;
+    height: 40vh;
+    width: 100%;
+  }
+  .credit td {
+    color: #008800;
+  }
+  .debit td {
+    color: red;
+  }
+  
+  .transaction-table td button {
+    width: 60%;
+    background: rgba(0, 0, 0, 0.1);
+    color: #A92E65;
+    border: 2px solid #A92E65;
+    cursor: pointer;
+  }
+  .transaction-table td button:hover {
+    background: #A92E65;
+    color: white;
+  }
+  
+  @media (max-width: 769px) {
+    #transaction-main {
+      height: 90vh;
+      overflow: auto;
+    }
+
+    #transaction-table {
+        width: 80%;
+        margin-right: 9em;
+        margin-left: 3em
+      }
+  
+    #transaction-section > h1 {
+      font-size: 1.6em;
+    }
+  
+    #transaction-section > h3 {
+      margin-bottom: 0.5em;
+    }
+    .transaction-table th {
+      font-size: 0.93em;
+    }
+    .transaction-table td {
+      font-size: 0.9em;
+      width: 50%;
+    }
+  }
