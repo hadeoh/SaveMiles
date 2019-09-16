@@ -1,0 +1,387 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    color: #a92e65;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    display: block;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  li{
+      list-style:none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: #a92e65;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+  }
+  .topnav .nav-item a {
+    color: #a92e65;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .nav-item a:hover {
+    background-color: #a92e65;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: white;
+    color: white;
+  }
+  
+  .nav-list{
+    margin-left: -30px;
+    margin-top: 0;
+  }
+  .nav-item .fas{
+    margin-right:10px;
+  }
+
+  .side-image {
+      display:none;
+  }
+
+  .main-banner {
+    margin-top:-2.5rem;
+    height: 25rem;
+    text-align: center;
+    background: url("../img/banner.png");
+  }
+
+  .left-banner{
+    background: url("../img/banner.png");
+    background-repeat: no-repeat no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%, 100% 100%;
+    margin-top:-0.5rem;
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    width: 50%;
+    min-height: 60%;
+    height: 91.2%;
+    overflow: hidden;
+  }
+
+  .left-banner .caption {
+    color: white;
+    padding-top: 3rem;
+    text-align: left;
+    margin-left: 5%;
+    top: 18%;
+  }
+
+  .left-banner .caption h1 {
+      font-size: 7rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+  }
+
+  .left-banner .caption p {
+    margin-top:-5rem;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  .main-banner .caption {
+    color: white;
+    padding-top: 3rem;
+  }
+
+  .main-banner .caption h1 {
+      font-size: 3.8em;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+  }
+
+  .main-banner .caption p {
+    margin-top:-1.4rem;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register{
+    text-transform: uppercase;
+    color: white;
+    background: #a92e65;
+    margin: 2rem 0;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.lower-banner {
+    background: url('../img/fancy_bg.png') no-repeat;
+    background-size: cover;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.lower-banner2 {
+    background: #FFE6D4;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.banner-header, .text-wrapper {
+    text-align: center !important;
+    margin-bottom: 2rem;
+    
+}
+
+.text-wrapper {
+    margin-bottom: 1rem;
+}
+
+.text-wrapper span {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 100%;
+    background: #FC954F;
+    color: #A92E65;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+.banner-header, .text-wrapper h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.2;
+}
+
+.text-wrapper p {
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(141, 141, 141);
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+footer {
+	bottom: 0;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: #A92E65;
+    color: #fff;
+    padding: 0.1em 0 0.1em 0;
+    margin-top:0;
+}
+
+
+.footer {
+    bottom: 0;
+    font-size: 0.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: #A92E65;
+    color: #fff;
+    padding: 0;
+    line-height: 0.4rem;
+    margin-top:0;
+    position: fixed;
+    height: 3rem;
+}
+
+@media only screen and (min-width:992px) {
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .topnav {
+        display: flex;
+        flex-flow: row nowrap;
+        position: relative;
+        padding: .5rem 1rem;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .active{
+        margin-left: 1.5rem!important;
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+    .topnav #myLinks {
+        display: flex!important;
+        flex-basis: auto;
+        flex-grow: 1;
+        align-items: center;
+      }
+      .nav-list{
+        flex-direction: row;
+        margin-right: 1.5rem!important;
+        margin-left: auto!important;
+        display: flex;
+        padding-left: 0;
+        margin-bottom: 0;
+
+      }
+    .topnav a.icon {
+        display: none;
+    }
+    .fas {
+        display: none;
+    }
+    body{
+        width:100%;
+        padding: 0;
+        margin: 0;
+    }
+    .main-banner {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .caption{
+        display: block;
+        flex: 0 0 50%;
+        max-width: 50%;
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .caption h1 {
+        font-size: 4em;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+    img {
+        display: block;
+        width: 80%;
+        max-width: 100%;
+        vertical-align: middle;
+        border-style: none;
+        height:160%;
+    }
+    .side-image {
+        display: block!important;
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 100%;
+        position: relative;
+        width: 100%;
+        height:50%;
+        padding: 60px 15px 150px 15px;
+    }
+    .container1 {
+        padding: 4em 15px 4em 15px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .row {
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .text-wrapper {
+        display: block;
+        text-align: center!important;
+        margin-bottom: 0!important;
+        margin-right: -5rem;
+        flex: 0 0 20%;
+        max-width: 20%;
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 180px;
+        line-height: 1.6rem;
+    }
+    .container2{
+        margin-left: auto!important;
+        margin-right: auto!important;
+        flex: 0 0 80%;
+        max-width: 80%;
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .lower-banner2 .container2 .text-wrapper {
+        text-align: center!important;
+        margin-bottom: 3rem!important;
+        flex: 0 0 40%;
+        max-width: 40%;
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .lower-banner2 .container2 .wrap {
+        margin: -230px 0 0 600px;
+    }
+
+    footer {
+        width:100%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .left-banner {
+        display: none;
+    }
+
+    .right-panel {
+        width: 100%;
+    }
+}
