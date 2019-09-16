@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Deposit Page</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class = "container">
+            <div class="topnav">
+                <a href="index.html" class="active">SaveMiles</a>
+                <!-- Navigation links (hidden by default) -->
+                <nav id="myLinks">
+                    <ul class ="nav-list">
+                            <li class="nav-item"><a href="#">Transaction activity</a></li>
+                        <li class="nav-item"><a href="#">Deposit funds</a></li>
+                        <li class="nav-item"><a href="withdraw.html">Withdraw funds</a></li>
+                        <li class="nav-item"><a href="index.html">Logout</a></li>
+                    </ul>
+                </nav>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="panel">
+            <div class="form-headings">
+                Deposit your funds here
+            </div>
+            <form class= "enrol">
+                <input id="emailAddress" type="email" name="email" class="form-inputs" placeholder="Amount..." autofocus="" value="">
+                <input type="text" name="" id="address" class="form-inputs" placeholder="Card Number...">
+                <input type="text" name="" id="address" class="form-inputs" placeholder="MM/YY...">
+                <input type="text" name="" id="address" class="form-inputs" placeholder="CVC...">
+                <div class="text-center">
+                    <button id="form-buttons">Deposit funds</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+</body>
+<script>
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</html>

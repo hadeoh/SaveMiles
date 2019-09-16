@@ -52,7 +52,9 @@
             "userId": 1,
             "userEmail": "usthmandanfodio@gmail.com",
             "accountNumber":"0058780531",
-            "cardNumber": "5762 6453 2174 2999"
+            "cardNumber": "",
+            "expiryDate": "",
+            "CVC": ""
         },
 
         {
@@ -61,8 +63,10 @@
             "amount": "#10,000",
             "userId": 2,
             "userEmail": "balikis@gmail.com",
-            "accountNumber":"0783048686",
-            "cardNumber": "5762 6453 2174 2999"
+            "accountNumber":"",
+            "cardNumber": "5762 6453 2174 2999",
+            "expiryDate": "06/20",
+            "CVC": 323
         }
     ]
 }
