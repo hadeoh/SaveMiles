@@ -1,0 +1,24 @@
+{
+  "name": "savemiles",
+  "version": "1.0.0",
+  "description": "This is a product which helps people with their money right from where they are instead of walking miles to deposit or withdraw their money",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadeoh/SaveMiles.git"
+  },
+  "keywords": [
+    "Deposit",
+    "Withdraw",
+    "Save"
+  ],
+  "author": "Usman Adio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hadeoh/SaveMiles/issues"
+  },
+  "homepage": "https://github.com/hadeoh/SaveMiles#readme"
+}
