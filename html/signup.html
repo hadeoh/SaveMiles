@@ -39,27 +39,27 @@
             <div class="form-heading">
                 Sign up for SaveMiles here
             </div>
-            <form class= "enrol">
+            <form class= "enrol" action="http://localhost:3000/Users">
                 <div class="form-group naming">
                     <div class="names">
-                        <input type="text" name="" id="firstName" class="form-input pad" placeholder="First name..." required>
+                        <input type="text" name="" id="firstName" class="form-input pad" placeholder="First name...">
                     </div>
                     <div class="names1">
-                        <input type="text" name="" id="lastName" class="form-input pad" placeholder="Last name..." required>
+                        <input type="text" name="" id="lastName" class="form-input pad" placeholder="Last name...">
                     </div>
                 </div>
-                <input id="emailAddress" type="email" name="email" class="form-inputs" placeholder="Email Address..." autofocus="" value="" required>
-                <input type="text" name="" id="address" class="form-inputs" placeholder="Phone Number..." required>
+                <input id="emailAddress" type="email" name="email" class="form-inputs" placeholder="Email Address..." autofocus="" value="">
+                <input type="number" name="" id="pNumber" class="form-inputs" placeholder="Phone Number...">
                 <div class="form-group naming">
                     <div class="names">
-                        <input id="password" type="password" name="password" class="form-input pad" placeholder="Choose Password..." required>
+                        <input id="password" type="password" name="password" class="form-input pad" placeholder="Choose Password...">
                     </div>
                     <div class="names1">
-                        <input id="password2" type="password" name="" class="form-input pad" placeholder="Confirm Password..." required>
+                        <input id="password2" type="password" name="" class="form-input pad" placeholder="Confirm Password..." >
                     </div>
                 </div>
                 <div class="text-center">
-                    <button id="form-button">Sign Up</button>
+                    <button id="form-button" onclick="addUser()">Sign Up</button>
                 </div>
             </form>
             <div class="link">Already a member?<span> <a href="signin.html">Click here</a></span></div>
@@ -77,4 +77,6 @@
   }
 }
 </script>
+<script src="../js/jQuery-3.4.1.min.js"></script>
+<script src="../js/signup.js"></script>
 </html>
