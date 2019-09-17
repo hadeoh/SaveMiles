@@ -8,7 +8,6 @@ function depositFunds() {
         const date = new Date();
         const cvc = $('#cvc').val();
         const gottenUser = JSON.parse(localStorage.getItem('user'));
-        console.log(gottenUser)
         const userId = gottenUser.id;
         const userEmail = gottenUser.email;
         const fundValues = { amount, cardNumber, expiryDate, date, cvc, type, userId, userEmail }
