@@ -687,24 +687,6 @@ footer {
     height: 40vh;
     width: 100%;
   }
-  .credit td {
-    color: #008800;
-  }
-  .debit td {
-    color: red;
-  }
-  
-  .transaction-table td button {
-    width: 60%;
-    background: rgba(0, 0, 0, 0.1);
-    color: #A92E65;
-    border: 2px solid #A92E65;
-    cursor: pointer;
-  }
-  .transaction-table td button:hover {
-    background: #A92E65;
-    color: white;
-  }
   
   @media (max-width: 769px) {
     #transaction-main {

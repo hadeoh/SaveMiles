@@ -13,7 +13,7 @@
       "firstName": "Balikis",
       "lastName": "Kareem",
       "email": "balikis@gmail.com",
-      "password": "fire",
+      "password": "firebase",
       "phoneNumber": "08025818583"
     },
     {
@@ -39,13 +39,29 @@
       "email": "gerarddeulofeu@gmail.com",
       "password": "deulofeugerad",
       "phoneNumber": "+912456789"
+    },
+    {
+      "firstName": "Saba",
+      "lastName": "Younis",
+      "email": "sabayounis@yahoo.com",
+      "password": "fatherly",
+      "phoneNumber": "0198765425",
+      "id": 6
+    },
+    {
+      "firstName": "Saba",
+      "lastName": "Younis",
+      "email": "sabayounis@yahoo.com",
+      "password": "fatherly",
+      "phoneNumber": "2562178268718",
+      "id": 7
     }
   ],
   "Transactions": [
     {
       "id": 1,
       "type": "Debit",
-      "amount": "#5,000",
+      "amount": 5000,
       "userId": 1,
       "userEmail": "usthmandanfodio@gmail.com",
       "accountNumber": "0058780531",
@@ -58,7 +74,7 @@
     {
       "id": 2,
       "type": "Credit",
-      "amount": "#10,000",
+      "amount": 10000,
       "userId": 2,
       "userEmail": "balikis@gmail.com",
       "accountNumber": "",
@@ -69,7 +85,7 @@
       "date": "26-03-2019 15:55:01"
     },
     {
-      "amount": "0",
+      "amount": 0,
       "accountNumber": "0058780531",
       "bankName": "Sterling Bank",
       "date": "Tue Sep 17 2019 15:31:28 GMT-0100 (Cape Verde Standard Time)",
@@ -79,7 +95,7 @@
       "id": 3
     },
     {
-      "amount": "10",
+      "amount": 10,
       "accountNumber": "0058780531",
       "bankName": "Sterling Bank",
       "date": "Tue Sep 17 2019 15:41:13 GMT-0100 (Cape Verde Standard Time)",
@@ -87,6 +103,16 @@
       "userId": "1",
       "userEmail": "usthmandanfodio@gmail.com",
       "id": 4
+    },
+    {
+      "amount": 10,
+      "accountNumber": "0058780531",
+      "bankName": "Sterling Bank",
+      "date": "Tue Sep 17 2019 16:35:29 GMT-0100 (Cape Verde Standard Time)",
+      "type": "Debit",
+      "userId": "1",
+      "userEmail": "usthmandanfodio@gmail.com",
+      "id": 5
     }
   ]
 }

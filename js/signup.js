@@ -27,10 +27,10 @@ function addUser() {
       $.ajax({
         url: url,
         type: 'POST',
-        data: user,
-        success: function (data) {
-            const { id, email } = data[0]
-            const userDetails = JSON.stringify({id, email})
+        data: user
+        }).done((data)=>{
+            const { id, email, firstName } = data
+            const userDetails = JSON.stringify({id, email, firstName})
             localStorage.setItem("user",  userDetails);
           $('.right-panel').html(`
           <h2>You have successfully registered on SaveMiles</h2>
@@ -39,9 +39,8 @@ function addUser() {
           <b>Email Address: </b>${data.email} <br>
            `);
            window.location.replace('../html/transactions.html');
-         }
-       });
-     }
-     return false;
-   });
+        })
+       }
+       return false;
+     })
 }
