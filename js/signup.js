@@ -29,6 +29,9 @@ function addUser() {
         type: 'POST',
         data: user,
         success: function (data) {
+            const { id, email } = data[0]
+            const userDetails = JSON.stringify({id, email})
+            localStorage.setItem("user",  userDetails);
           $('.right-panel').html(`
           <h2>You have successfully registered on SaveMiles</h2>
           <h3>Your details are </h3>
