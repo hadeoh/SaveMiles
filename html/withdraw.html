@@ -35,12 +35,12 @@
             <div class="form-headings">
                 Withdraw your own funds 
             </div>
-            <form class= "enrol">
-                <input id="emailAddress" type="email" name="email" class="form-inputs" placeholder="Amount..." autofocus="" value="" required>
-                <input type="text" name="" id="address" class="form-inputs" placeholder="Account Number..." required>
-                <input type="text" name="" id="address" class="form-inputs" placeholder="Destination Bank..." required>
+            <form class= "enrol" action="http://localhost:3000/Transactions">
+                <input id="amount" type="text" name="" class="form-inputs" placeholder="Amount..." autofocus="" value="" required>
+                <input type="text" name="" id="acct-number" class="form-inputs" placeholder="Account Number..." required>
+                <input type="text" name="" id="bank" class="form-inputs" placeholder="Destination Bank..." required>
                 <div class="text-center">
-                    <button id="form-buttons">Withdraw funds</button>
+                    <button id="form-buttons" onclick="withdrawFunds()">Withdraw funds</button>
                 </div>
             </form>
         </div>
@@ -57,4 +57,6 @@
   }
 }
 </script>
+<script src="../js/jQuery-3.4.1.min.js"></script>
+<script src="../js/withdraw.js"></script>
 </html>

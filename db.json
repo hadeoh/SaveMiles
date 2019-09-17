@@ -67,6 +67,26 @@
       "expiryDate": "06/20",
       "CVC": 323,
       "date": "26-03-2019 15:55:01"
+    },
+    {
+      "amount": "0",
+      "accountNumber": "0058780531",
+      "bankName": "Sterling Bank",
+      "date": "Tue Sep 17 2019 15:31:28 GMT-0100 (Cape Verde Standard Time)",
+      "type": "Debit",
+      "userId": "1",
+      "userEmail": "usthmandanfodio@gmail.com",
+      "id": 3
+    },
+    {
+      "amount": "10",
+      "accountNumber": "0058780531",
+      "bankName": "Sterling Bank",
+      "date": "Tue Sep 17 2019 15:41:13 GMT-0100 (Cape Verde Standard Time)",
+      "type": "Debit",
+      "userId": "1",
+      "userEmail": "usthmandanfodio@gmail.com",
+      "id": 4
     }
   ]
 }
