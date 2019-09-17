@@ -39,11 +39,11 @@
             <div class="form-heading">
                 Login to your account here
             </div>
-            <form class= "enrol">
+            <form class= "enrol" action="http://localhost:3000/Users">
                 <input id="emailAddress" type="email" name="email" class="form-inputs" placeholder="Email Address..." autofocus="" value="" required>
-                <input type="text" name="" id="address" class="form-inputs" placeholder="Password..." required>
+                <input type="text" name="" id="password" class="form-inputs" placeholder="Password..." required>
                 <div class="text-center">
-                    <button id="form-button">Login</button>
+                    <button id="form-button" onclick="loginUser()">Login</button>
                 </div>
             </form>
             <div class="link">Don't have an account?<span> <a href="signup.html">Click here</a></span></div>
@@ -61,4 +61,6 @@
   }
 }
 </script>
+<script src="../js/jQuery-3.4.1.min.js"></script>
+<script src="../js/signin.js"></script>
 </html>
