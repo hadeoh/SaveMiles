@@ -14,7 +14,9 @@ function loginUser() {
                 type: 'GET',
                 dataType: 'json'
                }).done((data)=>{
-                   console.log(data);
+                   const { id, email } = data[0]
+                   const userDetails = JSON.stringify({id, email})
+                   localStorage.setItem("user",  userDetails);
                    if(data.length === 0){
                        alert('User login credentials incorrect')
                    } else {

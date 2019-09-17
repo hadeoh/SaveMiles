@@ -35,13 +35,13 @@
             <div class="form-headings">
                 Deposit your funds here
             </div>
-            <form class= "enrol">
-                <input id="emailAddress" type="email" name="email" class="form-inputs" placeholder="Amount..." autofocus="" value="" required>
-                <input type="text" name="" id="address" class="form-inputs" placeholder="Card Number..." required>
-                <input type="text" name="" id="address" class="form-inputs" placeholder="MM/YY..." required>
-                <input type="text" name="" id="address" class="form-inputs" placeholder="CVC..." required>
+            <form class= "enrol" action="http://localhost:3000/Transactions">
+                <input id="amount" type="number" name="" class="form-inputs" placeholder="Amount..." autofocus="" value="" required>
+                <input type="number" name="" id="card-number" class="form-inputs" placeholder="Card Number..." required>
+                <input type="text" name="" id="expiry-date" class="form-inputs" placeholder="MM/YY..." required>
+                <input type="number" name="" id="cvc" class="form-inputs" placeholder="CVC..." required>
                 <div class="text-center">
-                    <button id="form-buttons">Deposit funds</button>
+                    <button id="form-buttons" onclick="depositFunds()">Deposit funds</button>
                 </div>
             </form>
         </div>
@@ -58,4 +58,6 @@
   }
 }
 </script>
+<script src="../js/jQuery-3.4.1.min.js"></script>
+<script src="../js/deposit.js"></script>
 </html>
