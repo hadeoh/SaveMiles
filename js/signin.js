@@ -14,13 +14,14 @@ function loginUser() {
                 type: 'GET',
                 dataType: 'json'
                }).done((data)=>{
-                   const { id, email, firstName } = data[0]
-                   const userDetails = JSON.stringify({id, email, firstName})
-                   localStorage.setItem("user",  userDetails);
+                   console.log(data)
                    if(data.length === 0){
                        alert('User login credentials incorrect')
                    } else {
-                       window.location.replace('../html/transactions.html')
+                        const { id, email, firstName, accountType } = data[0]
+                        const userDetails = JSON.stringify({id, email, firstName, accountType})
+                        localStorage.setItem("user",  userDetails);
+                        window.location.replace('../html/transactions.html')
                    }
                })
              }

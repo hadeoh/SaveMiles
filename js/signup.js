@@ -7,8 +7,9 @@ function addUser() {
       const phoneNumber = $('#pNumber').val();
       const password = $('#password').val();
       const cPassword = $('#password2').val();
+      const accountType = 'Personal';
       const url = $(this).attr('action');
-      const user = { firstName, lastName, email, password, phoneNumber };
+      const user = { firstName, lastName, email, password, phoneNumber, accountType };
       const emailPattern = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
  
       if (firstName.trim().length < 1) {
@@ -29,8 +30,8 @@ function addUser() {
         type: 'POST',
         data: user
         }).done((data)=>{
-            const { id, email, firstName } = data
-            const userDetails = JSON.stringify({id, email, firstName})
+            const { id, email, firstName, accountType } = data
+            const userDetails = JSON.stringify({id, email, firstName, accountType})
             localStorage.setItem("user",  userDetails);
           $('.right-panel').html(`
           <h2>You have successfully registered on SaveMiles</h2>

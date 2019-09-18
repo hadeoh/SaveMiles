@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Deposit Page</title>
+    <title>Upgrade Page</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
@@ -17,9 +17,9 @@
                 <nav id="myLinks">
                     <ul class ="nav-list">
                             <li class="nav-item"><a href="transactions.html">Transaction activity</a></li>
-                        <li class="nav-item"><a href="#">Deposit funds</a></li>
+                        <li class="nav-item"><a href="deposit.html">Deposit funds</a></li>
                         <li class="nav-item"><a href="withdraw.html">Withdraw funds</a></li>
-                        <li class="nav-item"><a href="ugrade.html">Upgrade Account</a></li>
+                        <li class="nav-item"><a href="#">Upgrade Account</a></li>
                         <li class="nav-item"><a href="index.html">Logout</a></li>
                     </ul>
                 </nav>
@@ -34,15 +34,15 @@
     <section>
         <div class="panel">
             <div class="form-headings">
-                Deposit your funds here
+                Enjoy business account features
             </div>
-            <form class= "enrol" action="http://localhost:3000/Transactions">
-                <input id="amount" type="number" name="" class="form-inputs" placeholder="Amount..." autofocus="" value="" required>
-                <input type="number" name="" id="card-number" class="form-inputs" placeholder="Card Number..." required>
-                <input type="text" name="" id="expiry-date" class="form-inputs" placeholder="MM/YY..." required>
-                <input type="number" name="" id="cvc" class="form-inputs" placeholder="CVC..." required>
+            <form class= "enrol" action="http://localhost:3000/Users">
+                <input id="bus-name" type="text" name="" class="form-inputs" placeholder="Business name..." autofocus="" value="" required>
+                <input type="text" name="" id="bus-category" class="form-inputs" placeholder="Business Category..." required>
+                <input type="text" name="" id="bus-no" class="form-inputs" placeholder="CAC No..." required>
+                <h1 class="business">You'll be charged &#8358;1,500 for upgrading to a business account</h1>
                 <div class="text-center">
-                    <button id="form-buttons" onclick="depositFunds()">Deposit funds</button>
+                    <button id="form-buttons" onclick="upgradeAcct()">Upgrade to business account</button>
                 </div>
             </form>
         </div>
@@ -60,5 +60,5 @@
 }
 </script>
 <script src="../js/jQuery-3.4.1.min.js"></script>
-<script src="../js/deposit.js"></script>
+<script src="../js/upgrade.js"></script>
 </html>

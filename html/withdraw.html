@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Deposit Page</title>
+    <title>Withdrawal Page</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
@@ -19,6 +19,7 @@
                             <li class="nav-item"><a href="transactions.html">Transaction activity</a></li>
                         <li class="nav-item"><a href="deposit.html">Deposit funds</a></li>
                         <li class="nav-item"><a href="#">Withdraw funds</a></li>
+                        <li class="nav-item"><a href="ugrade.html">Upgrade Account</a></li>
                         <li class="nav-item"><a href="index.html">Logout</a></li>
                     </ul>
                 </nav>
@@ -36,8 +37,8 @@
                 Withdraw your own funds 
             </div>
             <form class= "enrol" action="http://localhost:3000/Transactions">
-                <input id="amount" type="text" name="" class="form-inputs" placeholder="Amount..." autofocus="" value="" required>
-                <input type="text" name="" id="acct-number" class="form-inputs" placeholder="Account Number..." required>
+                <input id="amount" type="number" name="" class="form-inputs" placeholder="Amount..." autofocus="" value="" required>
+                <input type="number" name="" id="acct-number" class="form-inputs" placeholder="Account Number..." required>
                 <input type="text" name="" id="bank" class="form-inputs" placeholder="Destination Bank..." required>
                 <div class="text-center">
                     <button id="form-buttons" onclick="withdrawFunds()">Withdraw funds</button>

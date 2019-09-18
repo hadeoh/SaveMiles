@@ -6,7 +6,8 @@
       "lastName": "Adio",
       "email": "usthmandanfodio@gmail.com",
       "password": "modupeola",
-      "phoneNumber": "07081855427"
+      "phoneNumber": "07081855427",
+      "accountType": "Personal"
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "lastName": "Kareem",
       "email": "balikis@gmail.com",
       "password": "firebase",
-      "phoneNumber": "08025818583"
+      "phoneNumber": "08025818583",
+      "accountType": "Business"
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "lastName": "Kalu",
       "email": "gracekalu@gmail.com",
       "password": "kalugrace",
-      "phoneNumber": "07091924587"
+      "phoneNumber": "07091924587",
+      "accountType": "Personal"
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "lastName": "Tom",
       "email": "tomcleverley@gmail.com",
       "password": "watford",
-      "phoneNumber": "+912456789"
+      "phoneNumber": "+912456789",
+      "accountType": "Business"
     },
     {
       "id": 5,
@@ -38,23 +42,20 @@
       "lastName": "Gerard",
       "email": "gerarddeulofeu@gmail.com",
       "password": "deulofeugerad",
-      "phoneNumber": "+912456789"
+      "phoneNumber": "+912456789",
+      "accountType": "Business"
     },
     {
       "firstName": "Saba",
       "lastName": "Younis",
       "email": "sabayounis@yahoo.com",
+      "phoneNumber": "567262788721812",
       "password": "fatherly",
-      "phoneNumber": "0198765425",
+      "accountType": "Business",
+      "businessCategory": "Fashion",
+      "businessName": "Saba Organisation",
+      "businessNo": "12A67676HJ",
       "id": 6
-    },
-    {
-      "firstName": "Saba",
-      "lastName": "Younis",
-      "email": "sabayounis@yahoo.com",
-      "password": "fatherly",
-      "phoneNumber": "2562178268718",
-      "id": 7
     }
   ],
   "Transactions": [
